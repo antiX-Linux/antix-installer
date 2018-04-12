@@ -1,0 +1,15 @@
+translations/*.qm               usr/share/antix-installer/locale
+locales.template                usr/share/antiX
+copyright		        usr/share/doc/antix-installer
+LICENSE				usr/share/doc/antix-installer 
+antiX                           usr/share/doc/antix-installer
+NOTICE                          usr/share/doc/antix-installer
+MEPIS_Collective_Work_License   usr/share/doc/antix-installer
+minstall                        usr/sbin 
+scripts/live-to-installed       usr/sbin
+scripts/guess-hwclock		usr/sbin
+minstall.desktop                usr/share/applications/antix
+msystem.png                     usr/share/icons
+msystem.png                     usr/share/pixmaps
+scripts/rc.local.install        usr/share/antiX
+themes/* 			usr/share/antix-installer

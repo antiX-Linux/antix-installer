@@ -1,0 +1,16 @@
+Source: antix-installer
+Section: system
+Priority: optional
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Build-Depends:qt5-qmake,
+	qt5-default,
+	qttools5-dev-tools,
+	debhelper (>= 9.20120115)
+Standards-Version: 3.9.8
+Homepage: https://github.com/antiX-Linux/antix-installer
+
+Package: antix-installer
+Architecture: any
+Depends: os-prober, gdisk, partition-info, antix-libs, grub-efi-amd64-bin [amd64], grub-efi-ia32-bin [i386] 
+Recommends: gparted, partitionmanager
+Description: GUI installer for antiX.
