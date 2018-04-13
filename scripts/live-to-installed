@@ -2,7 +2,7 @@
 
 ME=${0##*/}
 
-PURGE_PACKAGES="live-init-antix"
+PURGE_PACKAGES="live-init-antix live-init-mx"
 W_MANAGERS="fluxbox icewm jwm"
 PRETEND=
 
