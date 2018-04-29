@@ -650,6 +650,16 @@ Enjoy using antiX Linux.</string>
             </item>
             <item>
              <property name="text">
+              <string>btrfs-zlib</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>btrfs-lzo</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
               <string>reiserfs</string>
              </property>
             </item>
