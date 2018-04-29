@@ -1109,7 +1109,10 @@ bool MInstall::installLoader()
     // update grub config
     runCmd("chroot /mnt/antiX update-grub");
     if (!isFormatBtrfsZlib && !isFormatBtrfsLzo) {
-      runCmd("/sbin/make-fstab --install /mnt/antiX --mntpnt=/media"); }
+      runCmd("/sbin/make-fstab --install /mnt/antiX --mntpnt=/media"); 
+     } else {
+      runCmd("/sbin/make-fstab -f /mnt/antiX/etc/fstab --mntpnt=/media");
+     }
 	runCmd("chroot /mnt/antiX dev2uuid_fstab");  
     runCmd("chroot /mnt/antiX update-initramfs -u -t -k all");
     system("umount /mnt/antiX/proc; umount /mnt/antiX/sys; umount /mnt/antiX/dev");
