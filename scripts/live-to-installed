@@ -61,6 +61,8 @@ main() {
     rm_file_skel  "Desktop/Installer"
 
     rm_file       etc/udev/rules.d/90-fstab-automount.rules
+    rm_file       etc/*.bak 
+    rm_file       etc/*-
     rm_file       lib/udev/rules.d/92-console-font.rules
 
     cp_file       /usr/share/antiX/rc.local.install etc/rc.local

@@ -1,3 +1,11 @@
+antix-installer (0.8.15) unstable; urgency=medium
+
+  * btrfs additions - thanks rob
+  * use rc.local to add moutpoints on first run after installed
+  * updated translations
+
+ -- anticapitalista <antix@operamail.com>  Sun, 29 Apr 2018 14:29:20 +0300
+
 antix-installer (0.8.14) unstable; urgency=medium
 
   * Various translation improvements
