@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>450</width>
-    <height>405</height>
+    <width>564</width>
+    <height>491</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -55,8 +55,8 @@
      </property>
      <property name="sizeHint" stdset="0">
       <size>
-       <width>201</width>
-       <height>20</height>
+       <width>122</width>
+       <height>29</height>
       </size>
      </property>
     </spacer>
@@ -472,7 +472,7 @@ Enjoy using antiX Linux.</string>
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>16</height>
+           <height>40</height>
           </size>
          </property>
         </spacer>
