@@ -2622,9 +2622,9 @@ void MInstall::copyDone(int, QProcess::ExitStatus exitStatus)
                         sprintf(line, "%s /home auto defaults,noatime 1 2\n", homedev);
                     // btrfs compression options
                     } else if (isFormatBtrfsZlib) {
-                        sprintf(line, "%s /home auto defaults,noatime,compress-force=zlib 1 0\n", rootdev);
+                        sprintf(line, "%s /home auto defaults,noatime,compress-force=zlib 1 0\n", homedev);
                     } else if (isFormatBtrfsLzo) {
-                        sprintf(line, "%s /home auto defaults,noatime,compress-force=lzo 1 0\n", rootdev);
+                        sprintf(line, "%s /home auto defaults,noatime,compress-force=lzo 1 0\n", homedev);
                     } else if (isFormatReiserfs) {
                         sprintf(line, "%s /home reiserfs defaults,noatime,notail 0 0\n", homedev);
                     } else if (isFormatReiser4) {
