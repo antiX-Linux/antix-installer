@@ -1108,8 +1108,9 @@ bool MInstall::installLoader()
     system(cmd.toUtf8());
     // update grub config
     runCmd("chroot /mnt/antiX update-grub");
-//    runCmd("/sbin/make-fstab --install /mnt/antiX --mntpnt=/media"); // This line removed because it clobbers the fstab entries that this script creates.
-    runCmd("chroot /mnt/antiX dev2uuid_fstab");  
+    if (!isFormatBtrfsZlib && !isFormatBtrfsLzo) {
+      runCmd("/sbin/make-fstab --install /mnt/antiX --mntpnt=/media"); }
+	runCmd("chroot /mnt/antiX dev2uuid_fstab");  
     runCmd("chroot /mnt/antiX update-initramfs -u -t -k all");
     system("umount /mnt/antiX/proc; umount /mnt/antiX/sys; umount /mnt/antiX/dev");
     if (system("mountpoint -q /mnt/antiX/boot/efi") == 0) {
