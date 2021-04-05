@@ -131,9 +131,8 @@ QString MInstall::getCmdOut(QString cmd)
     if (fp == NULL) {
         return QString (ret);
     }
-    int i;
     if (fgets(line, sizeof line, fp) != NULL) {
-        i = strlen(line);
+        int i = strlen(line);
         line[--i] = '\0';
         ret = line;
     }
@@ -506,9 +505,10 @@ bool MInstall::makeLinuxPartition(QString dev, const char *type, bool bad, QStri
             if (strncmp(type, "ext*", 4) == 0) {
                 // ext4 tuning
                 cmd = QString("/sbin/tune2fs -c0 -C0 -i1m %1").arg(dev);
-            }
-            if (system(cmd.toUtf8()) != 0) {
-                // error
+                if (system(cmd.toUtf8()) != 0) {
+                    // error
+                    return false;
+                }
             }
         }
         return true;
