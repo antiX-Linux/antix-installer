@@ -9,14 +9,14 @@ The disk with the partition you selected for installation is failing.
 
 </source>
         <translation>
-Диск с разделом, который Вы выбрали для установки, не годится.
+Диск с разделом, который Вы выбрали для установки, не подходит.
 </translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="288"/>
         <source>You are strongly advised to abort.
 </source>
-        <translation>Мы настоятельно рекомендуем Вам сделать отмену.
+        <translation>Вам настоятельно рекомендуется прервать.
 </translation>
     </message>
     <message>
@@ -76,14 +76,14 @@ The disk with the partition you selected for installation is failing.
         <source>Smartmon tool output:
 
 </source>
-        <translation>Инструмент выходa Smartmon:
+        <translation>Вывод из Smartmon tool  :
 </translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="301"/>
         <source>The disk with the partition you selected for installation passes the S.M.A.R.T. monitor test (smartctl)
 </source>
-        <translation>Диск с разделом, который Вы выбрали для установки, проходит SMART тест (smartctl)
+        <translation>Диск с разделом, который выбран вами для установки, проходит S.M.A.R.T. тест (smartctl)
 </translation>
     </message>
     <message>
@@ -96,17 +96,17 @@ The disk with the partition you selected for installation is failing.
     <message>
         <location filename="minstall.cpp" line="304"/>
         <source>Do you want to continue?</source>
-        <translation>Вы хотите продолжить?</translation>
+        <translation>Хотите ли Вы продолжить?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="338"/>
         <source>Ready to install antiX Linux filesystem</source>
-        <translation>Все готово для установки файловой системы antiX Linux</translation>
+        <translation>Всё готово для установки файловой системы antiX Linux</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="484"/>
         <source>OK to format and use the entire disk (%1) for antiX Linux?</source>
-        <translation>Разрешаете форматирование и использование всего диска (%1) для antiX Linux?</translation>
+        <translation>Разрешаете ли Вы форматирование и использование всего диска (%1) для antiX Linux?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="492"/>
@@ -122,30 +122,30 @@ The disk with the partition you selected for installation is failing.
         <location filename="minstall.cpp" line="605"/>
         <location filename="minstall.cpp" line="777"/>
         <source>Formatting swap partition</source>
-        <translation>Форматирование раздела подкачки</translation>
+        <translation>Форматирование раздела swap</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="614"/>
         <source>Formatting root partition</source>
-        <translation>Форматирование корневогo разделa</translation>
+        <translation>Форматирование корневогo(root) разделa</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="677"/>
         <source>You must choose a root partition.
 The root partition must be at least 3.5 GB.</source>
-        <translation>Вы должны выбрать корневой раздел.
-Корневой раздел должен быть по крайней мере 3,5 ГБ.</translation>
+        <translation>Вы должны выбрать корневой(root) раздел.
+Корневой(root) раздел должен быть не менее чем 3,5 ГБ.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="683"/>
         <source>The partition you selected for root, appears to be a MS-Windows partition.  Are you sure you want to reformat this partition?</source>
-        <translation>Раздел, который выбран для корня, по-видимому, раздел MS-Windows. Вы уверены, что хотите переформатировать этот раздел?</translation>
+        <translation>Раздел, который выделен вами для root, по-видимому, раздел MS-Windows. Вы уверены, что хотите переформатировать этот раздел?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="692"/>
         <source>OK to format and destroy all data on 
 %1 for the / (root) partition?</source>
-        <translation>OK для форматирования и уничтожения всех данных на 
+        <translation>Согласны ли Вы на форматирования и уничтожения всех данных на 
 %1 для / (root) раздела?</translation>
     </message>
     <message>
@@ -153,29 +153,29 @@ The root partition must be at least 3.5 GB.</source>
         <source>All data on %1 will be deleted, except for /home
 OK to continue?</source>
         <translation>Все данные на %1 будут удалены, за исключением раздела /home
-OK для продолжения?</translation>
+хотите ли Вы продолжить?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="711"/>
         <source>OK to format and destroy all data on 
 %1 for the swap partition?</source>
-        <translation>OK для форматирования и уничтожения всех данных на 
-%1 для раздела подкачки?</translation>
+        <translation>Согласны ли Вы на форматирования и уничтожения всех данных на 
+%1 для раздела подкачки(swap)?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="724"/>
         <source>The partition you selected for /home, appears to be a MS-Windows partition.  Are you sure you want to reformat this partition?</source>
-        <translation>Раздел, который выбран для /home, по-видимому, раздел MS-Windows. Вы уверены, что хотите переформатировать этот раздел?</translation>
+        <translation>Раздел, который выбран вами для /home, по-видимому, раздел MS-Windows. уверены ли Вы, что хотите переформатировать этот раздел?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="733"/>
         <source>OK to reuse (no reformat) %1 as the /home partition?</source>
-        <translation>ОК для использования (без форматирования) %1 в качестве /home раздела?</translation>
+        <translation>Согласны ли Вы на повторное использование (без форматирования) %1 в качестве /home раздела?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="735"/>
         <source>OK to format and destroy all data on %1 for the /home partition?</source>
-        <translation>OK для форматирования и уничтожения всех данных на %1 для /home раздела?</translation>
+        <translation>Согласны ли Вы на форматирования и уничтожения всех данных на %1 для /home раздела?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="746"/>
@@ -200,7 +200,7 @@ OK для продолжения?</translation>
     <message>
         <location filename="minstall.cpp" line="888"/>
         <source>Mounting the / (root) partition</source>
-        <translation>Подключение / (корневого) разделa</translation>
+        <translation>Подключение / (root) разделa</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="915"/>
@@ -210,7 +210,7 @@ OK для продолжения?</translation>
     <message>
         <location filename="minstall.cpp" line="982"/>
         <source>OK to install GRUB bootloader at %1 ?</source>
-        <translation>OK для установки GRUB загрузчика на %1 ?</translation>
+        <translation>Согласны ли Вы на установку GRUB загрузчика на %1 ?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="994"/>
@@ -225,14 +225,14 @@ OK для продолжения?</translation>
     <message>
         <location filename="minstall.cpp" line="1098"/>
         <source>The home directory for %1 already exists.Would you like to reuse the old home directory?</source>
-        <translation>Домашний каталог %1 уже существует. Bы хотите использовать старую домашнюю директорию?</translation>
+        <translation>Домашний каталог %1 уже существует. Хотели бы Вы переиспользовать старую домашнюю директорию?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1104"/>
         <source>Would you like to save the old home directory
 and create a new home directory?</source>
-        <translation>Хотите сохранить старый
-и создать новый домашний каталог?</translation>
+        <translation>Хотели бы Вы сохранить старую домашнюю директорию
+и создать новую?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1120"/>
@@ -246,7 +246,7 @@ delete a previously saved copy of your home directory.</source>
     <message>
         <location filename="minstall.cpp" line="1129"/>
         <source>Would you like to delete the old home directory for %1?</source>
-        <translation>Хотите удалить старый домашний каталог на %1?</translation>
+        <translation>Хотели бы Вы удалить старый домашний каталог на %1?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1139"/>
@@ -270,7 +270,7 @@ Before proceeding, you&apos;ll have to select a different username.</source>
     <message>
         <location filename="minstall.cpp" line="1166"/>
         <source>Sorry, failed to name user directory.</source>
-        <translation>К сожалению, не удалось дать имя каталогу пользователя.</translation>
+        <translation>К сожалению, не удалось именовать каталог пользователя.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1190"/>
@@ -285,7 +285,7 @@ Before proceeding, you&apos;ll have to select a different username.</source>
     <message>
         <location filename="minstall.cpp" line="1251"/>
         <source>Sorry, unable to set root password.</source>
-        <translation>К сожалению, не удалось установить пароль суперпользователя.</translation>
+        <translation>К сожалению, не удалось установить пароль суперпользователя(root).</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1278"/>
@@ -297,9 +297,9 @@ Before proceeding, you&apos;ll have to select a different username.</source>
         <source>The user name needs to be at least
 2 characters long. Please select
 a longer name before proceeding.</source>
-        <translation>Имя пользователя должно иметь,
-по крайней мере, 2 символa. Выберите
-другое имя, прежде чем продолжить.</translation>
+        <translation>Имя пользователя должно содержать
+не менее 2-х символов. Пожалуйста, выберите
+более длинное имя, прежде чем продолжить.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1297"/>
@@ -308,7 +308,7 @@ a longer name before proceeding.</source>
 Please choose another name before proceeding.</source>
         <translation>Имя пользователя не может содержать специальные
  символы или пробелы.
-Пожалуйста, выберите другое имя, прежде чем приступить.</translation>
+Пожалуйста, выберите другое имя, прежде чем продолжить.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1304"/>
@@ -316,8 +316,8 @@ Please choose another name before proceeding.</source>
         <source>The user password needs to be at least
 2 characters long. Please select
 a longer password before proceeding.</source>
-        <translation>Пароль пользователя должен иметь,
-по крайней мере, 2 символa. Пожалуйста, выбeритe
+        <translation>Пароль пользователя должен содержать
+не менее 2-х символов. Пожалуйста, выбeритe
 более длинный пароль, прежде чем продолжить.</translation>
     </message>
     <message>
@@ -326,8 +326,8 @@ a longer password before proceeding.</source>
         <source>The root password needs to be at least
 2 characters long. Please select
 a longer password before proceeding.</source>
-        <translation>Пароль суперпользователя должен иметь,
-по крайней мере, 2 символa. Пожалуйста, выбeритe
+        <translation>Пароль суперпользователя(root) должен содержать не менее
+2-х символов. Пожалуйста, выбeритe
 более длинный пароль, прежде чем продолжить.</translation>
     </message>
     <message>
@@ -343,23 +343,23 @@ Please select a different name.
         <location filename="minstall.cpp" line="1327"/>
         <source>The user password entries do
 not match.  Please try again.</source>
-        <translation>Записи пароля пользователя
-не совпадают. Пожалуйста, попробуйте еще раз.</translation>
+        <translation>Введённые пароли пользователя
+не совпадают. Пожалуйста, попробуйте ещё раз.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1333"/>
         <source>The root password entries do
  not match.  Please try again.</source>
-        <translation>Записи пароля суперпользователя
-не совпадают. Пожалуйста, попробуйте еще раз.</translation>
+        <translation>Введённые пароли суперпользователя(root)
+не совпадают. Пожалуйста, попробуйте ещё раз.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1368"/>
         <source>Sorry your computer name needs to be
 at least 2 characters long. You'll have to
 select a different name before proceeding.</source>
-        <translation>Извините, имя компьютера должно иметь,
-по крайней мере, 2 символа.
+        <translation>Извините, имя вашего компьютера должно содержать
+не менее 2-х символов.
 Выберите другое имя, прежде чем продолжить.</translation>
     </message>
     <message>
@@ -367,36 +367,35 @@ select a different name before proceeding.</source>
         <source>Sorry your computer name contains invalid characters.
 You'll have to select a different
 name before proceeding.</source>
-        <translation>Извините, имя компьютера содержит
-недопустимые символы. Выберите
-другое имя, прежде чем продолжить.</translation>
+        <translation>Извините, имя вашего компьютера содержит
+недопустимые символы. Вы должны выбрать 
+другое, прежде чем продолжить.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1378"/>
         <source>Sorry your computer domain needs to be at least
 2 characters long. You'll have to select a different
 name before proceeding.</source>
-        <translation>Извините, имя домена должно иметь,
-по крайней мере, 2 символa. Выберите
-другое имя, прежде чем продолжить.</translation>
+        <translation>Извините, доменное имя вашего компьютера должно содержать
+не менее 2-х символов. Выберите
+другое, прежде чем продолжить.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1382"/>
         <source>Sorry your computer domain contains invalid characters.
 You'll have to select a different
 name before proceeding.</source>
-        <translation>Извините, имя домена содержит
-недопустимые символы. Выберите
-другое имя, прежде чем продолжить.</translation>
+        <translation>Извините, доменное имя вашего компьютера содержит
+недопустимые символы. Вы должны выбрать другое, прежде чем продолжить.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1391"/>
         <source>Sorry your workgroup needs to be at least
 2 characters long. You'll have to select a different
 name before proceeding.</source>
-        <translation>Извините, имя рабочей группы должно иметь,
-по крайней мере, 2 символа. Выберите
-другое имя, прежде чем продолжить.</translation>
+        <translation>Извините, имя вашей рабочей группы должно содержать
+не менее 2-х символов. Выберите
+другое, прежде чем продолжить.</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1733"/>
@@ -405,16 +404,16 @@ To use the new installation, reboot without the installation media.
 
 Do you want to reboot now?</source>
         <translation>Установка и настройка antiX Linux завершена.
-Чтобы использовать новую установку, перезагрузите компьютер без установочного диска.
+Чтобы использовать новую установленную копию, перезагрузите компьютер без установочного носителя.
 
-Вы хотите сделать перезагрузку сейчас?</translation>
+Хотите ли Вы совершить перезагрузку сейчас?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1749"/>
         <source>The installation and configuration is incomplete.
 Do you really want to stop now?</source>
         <translation>Установка и конфигурация не завершены.
-Вы действительно хотите остановить процесс сейчас?</translation>
+Вы действительно хотите остановить прервать их сейчас?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1824"/>
@@ -429,17 +428,17 @@ Do you really want to stop now?</source>
     <message>
         <location filename="minstall.cpp" line="1849"/>
         <source>Returning to Step 1 to select another disk.</source>
-        <translation>Возврат к шагу 1, чтобы выбрать другой диск</translation>
+        <translation>Возврат к шагу 1, для выбора другого диск</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1853"/>
         <source>&lt;p&gt;&lt;b&gt;Special Thanks&lt;/b&gt;&lt;br/&gt;Thanks to everyone who has chosen to support antiX Linux with their time, money, suggestions, work, praise, ideas, promotion, and/or encouragement.&lt;/p&gt;&lt;p&gt;Without you there would be no antiX Linux.&lt;/p&gt;&lt;p&gt;anticapitalista, antiX and MX Linux Communities&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Особая благодарность&lt;/b&gt;&lt;br/&gt;Спасибо всем, кто поддержал antiX Linux времeм, деньгaми, предложениями, работaми, похвалaми, идеями, продвижениями по службе и / или поощрениями.&lt;/p&gt;&lt;p&gt;Без вас не было бы никакого antiX Linux.&lt;/p&gt;&lt;p&gt;anticapitalista, Antix и MX Linux Сообщества&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Особая благодарность&lt;/b&gt;&lt;br/&gt;Спасибо всем, кто поддержал antiX Linux своим времeм, деньгaми, предложениями, работaми, похвалaми, идеями, продвижениями и / или поощрениями.&lt;/p&gt;&lt;p&gt;Без вас не было бы никакого antiX Linux.&lt;/p&gt;&lt;p&gt;anticapitalista, Antix и MX Linux Сообщества&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1856"/>
         <source>&lt;p&gt;&lt;b&gt;Installation in Progress&lt;/b&gt;&lt;br/&gt;antiX Linux is installing.  For a fresh install, this will probably take 3-20 minutes, depending on the speed of your system and the size of any partitions you are reformatting.&lt;/p&gt;&lt;p&gt;If you click the Abort button, the installation will be stopped as soon as possible.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Идет установка&lt;/b&gt;&lt;br/&gt;antiX Linux занимается установкой. Для новой установки, это, вероятно, займет 3-20 минут, в зависимости от скорости вашей системы и размера разделoв, которые Вы переформатируeтe.&lt;/p&gt;&lt;p&gt;Если Вы нажмете кнопку Отмена, установка будет остановлена, как можно скорее.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Идёт установка&lt;/b&gt;&lt;br/&gt;antiX Linux занимается установкой. Для чистой установки, это, вероятно, займет 3-20 минут, в зависимости от скорости вашей системы и размера разделoв, которые Вы переформатируeтe.&lt;/p&gt;&lt;p&gt;Если Вы нажмете кнопку Отмена, установка будет остановлена, как можно скорее.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1868"/>
@@ -468,12 +467,12 @@ Returning to Step 1.</source>
     <message>
         <location filename="minstall.cpp" line="1906"/>
         <source>&lt;p&gt;&lt;b&gt;Computer Identity&lt;/b&gt;&lt;br/&gt;The computer name is a common unique name which will identify your computer if it is on a network. The computer domain is unlikely to be used unless your ISP or local network requires it.&lt;/p&gt;&lt;p&gt;The computer and domain names can contain only alphanumeric characters, dots, hyphens. They cannot contain blank spaces, start or end with hyphens&lt;/p&gt;&lt;p&gt;The SaMBa Server needs to be activated if you want to use it to share some of your directories or printer with a local computer that is running MS-Windows or Mac OSX.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Идентификация kомпьютерa&lt;/b&gt;&lt;br/&gt;Имя компьютера - уникальное имя, которое будет идентифицировать Ваш компьютер, когда он находится в сети. Домен компьютера вряд ли будет использоваться, только если Ваш провайдер или локальная сеть этого требуют.&lt;/p&gt;&lt;p&gt;Имена компьютера и домена могут содержать только алфавитно-цифровые символы, точки, дефисы. Они не могут содержать пробелов, начинаться или заканчиваться дефисом&lt;/p&gt;&lt;p&gt;Samba-сервер должен быть активирован, если Вы хотите использовать его, чтобы поделиться некоторыми из ваших каталогов или принтерoм с локальным компьютером, на котором запущен MS-Windows или Mac OSX.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Идентификация компьютерa&lt;/b&gt;&lt;br/&gt;Имя компьютера - уникальное имя, которое будет идентифицировать Ваш компьютер, когда он находится в сети. Домен компьютера вряд ли будет использоваться, только если Ваш провайдер или локальная сеть этого требуют.&lt;/p&gt;&lt;p&gt;Имена компьютера и домена могут содержать только алфавитно-цифровые символы, точки, дефисы. Они не могут содержать пробелов, начинаться или заканчиваться дефисом&lt;/p&gt;&lt;p&gt;Samba-сервер должен быть активирован, если Вы хотите использовать его, чтобы поделиться некоторыми из ваших каталогов или принтерoм с локальным компьютером, на котором запущен MS-Windows или Mac OSX.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1919"/>
         <source>&lt;p&gt;&lt;b&gt;Localization Defaults&lt;/b&gt;&lt;br/&gt;Set the default keyboard and locale. These will apply unless, they are overridden later by the user.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Configure Clock&lt;/b&gt;&lt;br/&gt;If you have an Apple or a pure Unix computer, by default the system clock is set to GMT or Universal Time. To change, check the box for &apos;System clock uses LOCAL.&apos;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Timezone Settings&lt;/b&gt;&lt;br/&gt;The CD boots with the timezone preset to GMT/UTC. To change the timezone, after you reboot into the new installation, right click on the clock in the Panel and select Adjust Date &amp; Time...&lt;/p&gt;&lt;p&gt;&lt;b&gt;Service Settings&lt;/b&gt;&lt;br/&gt;Most users should not change the defaults. Users with low-resource computers sometimes want to disable unneeded services in order to keep the RAM usage as low as possible. Make sure you know what you are doing! </source>
-        <translation>&lt;p&gt;&lt;b&gt;Локализация по умолчанию&lt;/b&gt;&lt;br/&gt;Установите раскладку клавиатуры и язык по умолчанию. Они будут применяться, если не будут изменены позже пользователем.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Настройка часов&lt;/b&gt;&lt;br/&gt;Если у вас есть Apple или чисто Unix компьютер, по умолчанию системные часы установлены по Гринвичу или всемирному времени. Чтобы изменить, установите флажок для &quot;Системные часы используют местное время.&quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Настройки часового пояса&lt;/b&gt;&lt;br/&gt;На установочных дисках часовой пояс предустановлен в GMT/UTC. Чтобы изменить часовой пояс, после перезагрузки в новую установку, щелкните правой кнопкой мыши на часах в панели и выберите &quot;Настройка даты и времени...&quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Настройки служб&lt;/b&gt;&lt;br/&gt;Большинство пользователей не должны изменять значения по умолчанию. Людям с компьютерами с ограниченными ресурсами иногда хочется отключить ненужные службы в целях уменьшения использования оперативной памяти. Убедитесь, что Вы знаете, что Вы делаете!</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Локализация по умолчанию&lt;/b&gt;&lt;br/&gt;Настройте раскладку клавиатуры и язык по умолчанию. Они будут применяться, если не будут изменены позже пользователем.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Настройка часов&lt;/b&gt;&lt;br/&gt;Если у вас есть Apple или чисто Unix компьютер, по умолчанию системные часы установлены по Гринвичу или всемирному времени. Чтобы изменить, установите флажок для &quot;Системные часы используют местное время.&quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Настройки часового пояса&lt;/b&gt;&lt;br/&gt;На установочных дисках часовой пояс предустановлен в GMT/UTC. Чтобы изменить часовой пояс, после перезагрузки в новую установку, щелкните правой кнопкой мыши на часах в панели и выберите &quot;Настройка даты и времени...&quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Настройки служб&lt;/b&gt;&lt;br/&gt;Большинство пользователей не должны изменять значения по умолчанию. Людям с компьютерами с ограниченными ресурсами иногда хочется отключить ненужные службы в целях уменьшения использования оперативной памяти. Убедитесь, что Вы знаете, что Вы делаете!</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1929"/>
@@ -499,7 +498,7 @@ Returning to Step 1.</source>
         <location filename="minstall.cpp" line="1966"/>
         <location filename="minstall.cpp" line="1978"/>
         <source>Next &gt;</source>
-        <translation>Дальше&gt;</translation>
+        <translation>Далее&gt;</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="1976"/>
@@ -545,12 +544,12 @@ Returning to Step 1.</source>
     <message>
         <location filename="minstall.cpp" line="2108"/>
         <source>Advanced Configuration and Power Interface event daemon</source>
-        <translation>Демон расширенной конфигурации и интерфейса событий питания</translation>
+        <translation>Демон событий расширенной конфигурации и интерфейса питания</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2118"/>
         <source>HDD temperature monitor</source>
-        <translation>Контроль температуры жесткого диска</translation>
+        <translation>Отслеживание температуры жесткого диска</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2128"/>
@@ -600,17 +599,17 @@ Returning to Step 1.</source>
     <message>
         <location filename="minstall.cpp" line="2213"/>
         <source>Secure Shell</source>
-        <translation>Безопасная оболочка</translation>
+        <translation>Безопасная командная оболочка</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2223"/>
         <source>Bluetooth</source>
-        <translation>Блютуз</translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2233"/>
         <source>File-copying tool</source>
-        <translation>Инструмент файлового копирования</translation>
+        <translation>Инструмент копирования файлов</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2242"/>
@@ -626,8 +625,8 @@ Returning to Step 1.</source>
         <location filename="minstall.cpp" line="2431"/>
         <source>antiX Linux is installing, are you 
 sure you want to Close now?</source>
-        <translation>Идет процесс установки antiX Linux, Вы
-уверены, что хотите прекратить сейчас?</translation>
+        <translation>Идёт процесс установки antiX Linux, уверены ли
+Вы, что хотите прекратить сейчас?</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2458"/>
@@ -649,7 +648,7 @@ Returning to Step 1.</source>
     <message>
         <location filename="minstall.cpp" line="2517"/>
         <source>Fixing configuration</source>
-        <translation>Установка конфигурации</translation>
+        <translation>Исправление конфигурации</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2601"/>
@@ -672,17 +671,17 @@ Returning to Step 1.</source>
     <message>
         <location filename="minstall.cpp" line="2657"/>
         <source>&lt;p&gt;&lt;b&gt;Keep Your Copy of antiX Linux up-to-date&lt;/b&gt;&lt;br/&gt;For antiX Linux information and updates please visit https://www.antixforum.com &lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Имейте Вашу копию antiX обновленной&lt;/b&gt;&lt;br/&gt;Для получения дополнительной информации и обновлений antiX, пожалуйста, посетите https://www.antixforum.com. &lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Сохраняйте Вашу копию antiX обновленной&lt;/b&gt;&lt;br/&gt;Для получения информации и обновлений antiX, пожалуйста, посетите https://www.antixforum.com. &lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2636"/>
         <source>&lt;p&gt;&lt;b&gt;Repairing Your Installation&lt;/b&gt;&lt;br/&gt;If antiX Linux stops working from the hard drive, sometimes it&apos;s possible to fix the problem by booting from CD and running one of the utilities in System Configuration or by using one of the regular Linux tools to repair the system.&lt;/p&gt;&lt;p&gt;You can also use your antiX Linux CD to recover data from MS-Windows systems!&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Восстановление установки&lt;/b&gt;&lt;br/&gt;Если antiX Linux перестает работать с жесткого диска, иногда можно исправить эту проблему, загрузившись с компакт-диска и работая под управлением одной из утилит настройки системы или с помощью одного из официальных инструментов Linux для восстановления системы.&lt;/p&gt;&lt;p&gt;Вы также можете использовать antiX Linux CD для восстановления данных из систем MS-Windows!&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Восстановление установки&lt;/b&gt;&lt;br/&gt;Если antiX Linux перестает работать с жёсткого диска, иногда можно исправить эту проблему, загрузившись с компакт-диска и работая под управлением одной из утилит настройки системы или с помощью одного из официальных инструментов Linux для восстановления системы.&lt;/p&gt;&lt;p&gt;Вы также можете использовать antiX Linux CD для восстановления данных из систем MS-Windows!&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="minstall.cpp" line="2649"/>
         <source>&lt;p&gt;&lt;b&gt;Adjusting Your Sound Mixer&lt;/b&gt;&lt;br/&gt;antiX Linux attempts to configure the sound mixer for you but sometimes it will be necessary for you to turn up volumes and unmute channels in the mixer in order to hear sound.&lt;/p&gt; &lt;p&gt;The mixer shortcut is located in the menu. Click on it to open the mixer. &lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Настройка Вашего звуковогo микшерa&lt;/b&gt;&lt;br/&gt;antiX Linux пытается сама настроить звуковой микшер для Вас, но иногда Вам придется увеличить звук и включить звуковые каналы в микшере, чтобы услышать звук.&lt;/p&gt; &lt;p&gt;Ярлык микшера находится в меню. Нажмите на него, чтобы открыть микшер. &lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Настройка Вашего звуковогo микшерa&lt;/b&gt;&lt;br/&gt;antiX Linux пытается настроить звуковой микшер для Вас, но иногда бывает необходимо увеличить звук и включить звуковые каналы в микшере, чтобы услышать звук.&lt;/p&gt; &lt;p&gt;Ярлык микшера находится в меню. Нажмите на него, чтобы открыть микшер. &lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -703,7 +702,7 @@ Returning to Step 1.</source>
         <location filename="meinstall.ui" line="67"/>
         <location filename="ui_meinstall.h" line="1218"/>
         <source>Next &gt;</source>
-        <translation>Дальше&gt;</translation>
+        <translation>Далее&gt;</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="70"/>
@@ -741,7 +740,7 @@ Enjoy using antiX Linux.</source>
 
 antiX Linux использует некоторые компоненты из MEPIS Linux, которые выпущены под свободной лицензией Apache. Некоторые компоненты MEPIS были модифицированы для antiX Linux.
 
-Получайте удовольствие от использования antiX Linux.</translation>
+Наслаждайтесь использованием antiX Linux.</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="226"/>
@@ -771,7 +770,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="339"/>
         <location filename="ui_meinstall.h" line="1232"/>
         <source>Custom install on existing partitions</source>
-        <translation>Выборочная установка на существующих разделах</translation>
+        <translation>Кастомная установка на существующих разделах</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="358"/>
@@ -801,7 +800,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="457"/>
         <location filename="ui_meinstall.h" line="1237"/>
         <source>Modify partitions:</source>
-        <translation>Изменить разделы:</translation>
+        <translation>Модифицировать разделы:</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="521"/>
@@ -825,7 +824,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="609"/>
         <location filename="ui_meinstall.h" line="1242"/>
         <source>Change default / (root) partition label:</source>
-        <translation>Изменить метку / (корневого) раздела:</translation>
+        <translation>Изменить метку по-умолчанию / (корневого) раздела:</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="623"/>
@@ -873,13 +872,13 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="664"/>
         <location filename="ui_meinstall.h" line="1253"/>
         <source>Change default /home partition label:</source>
-        <translation>Изменить метку /home раздела:</translation>
+        <translation>Изменить метку по-умолчанию /home раздела:</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="683"/>
         <location filename="ui_meinstall.h" line="1254"/>
         <source>Check for badblocks (takes longer)</source>
-        <translation>Проверить &quot;битые блоки&quot; (занимает больше времени)</translation>
+        <translation>Проверить &quot;повреждённые блоки&quot; (занимает больше времени)</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="702"/>
@@ -891,13 +890,13 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="732"/>
         <location filename="ui_meinstall.h" line="1256"/>
         <source>/ (root) partition:</source>
-        <translation>/ (корневой) раздел:</translation>
+        <translation>/ (root) раздел:</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="748"/>
         <location filename="ui_meinstall.h" line="1257"/>
         <source>swap partition:</source>
-        <translation>Раздел подкачки:</translation>
+        <translation>Раздел подкачки(swap):</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="764"/>
@@ -911,13 +910,13 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="ui_meinstall.h" line="1261"/>
         <location filename="ui_meinstall.h" line="1275"/>
         <source>root</source>
-        <translation>корень</translation>
+        <translation>root</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="879"/>
         <location filename="ui_meinstall.h" line="1263"/>
         <source>3. Installation in progress</source>
-        <translation>3. Идет установка</translation>
+        <translation>3. Идёт установка</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="922"/>
@@ -937,13 +936,13 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="964"/>
         <location filename="ui_meinstall.h" line="1266"/>
         <source>Ready to install antiX Linux filesystem</source>
-        <translation>Все готово для установки файловой системы antiX Linux</translation>
+        <translation>Готово для установки файловой системы antiX Linux</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="986"/>
         <location filename="ui_meinstall.h" line="1267"/>
         <source>Tips</source>
-        <translation>Подсказки</translation>
+        <translation>Советы</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1060"/>
@@ -1033,7 +1032,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="1417"/>
         <location filename="ui_meinstall.h" line="1287"/>
         <source>SaMBa Server for MS Networking</source>
-        <translation>Samba-сервер для MS сетей</translation>
+        <translation>SaMBa сервер для MS сетей</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1433"/>
@@ -1045,7 +1044,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="1446"/>
         <location filename="ui_meinstall.h" line="1289"/>
         <source>Computer domain:</source>
-        <translation>Компьютерный домен:</translation>
+        <translation>Домен компьютера:</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1462"/>
@@ -1069,7 +1068,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="1569"/>
         <location filename="ui_meinstall.h" line="1295"/>
         <source>Adjust which services should run at startup</source>
-        <translation>Отметьте, какие службы должны запускаться при старте</translation>
+        <translation>Отметьте, какие службы должны запускаться при запуске</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1572"/>
@@ -1081,7 +1080,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="1601"/>
         <location filename="ui_meinstall.h" line="1298"/>
         <source>6b. Configure Clock</source>
-        <translation>6b. Настройка часов</translation>
+        <translation>6b. Настроить часы</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1629"/>
@@ -1135,19 +1134,19 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="1882"/>
         <location filename="ui_meinstall.h" line="1309"/>
         <source>Confirm root password:</source>
-        <translation>Подтвердите пароль суперпользователя:</translation>
+        <translation>Подтвердите пароль суперпользователя(root):</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1898"/>
         <location filename="ui_meinstall.h" line="1310"/>
         <source>Root password:</source>
-        <translation>Пароль суперпользователя:</translation>
+        <translation>Пароль суперпользователя(root):</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1930"/>
         <location filename="ui_meinstall.h" line="1311"/>
         <source>7a. Default User Account</source>
-        <translation>7а. Пользователь по умолчанию</translation>
+        <translation>7а. Учётная запись пользователя по умолчанию</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="1992"/>
@@ -1159,7 +1158,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="2005"/>
         <location filename="ui_meinstall.h" line="1316"/>
         <source>Confirm user password:</source>
-        <translation>Подтвердите пароль пользователя:</translation>
+        <translation>Подтвердите пароль пользователя(root):</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="2021"/>
@@ -1177,7 +1176,7 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="2050"/>
         <location filename="ui_meinstall.h" line="1319"/>
         <source>Autologin</source>
-        <translation>Автологин</translation>
+        <translation>Автовход</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="2057"/>
@@ -1189,13 +1188,13 @@ antiX Linux использует некоторые компоненты из ME
         <location filename="meinstall.ui" line="2064"/>
         <location filename="ui_meinstall.h" line="1322"/>
         <source>Desktop modifications made in the live environment will be carried over to the installed OS</source>
-        <translation>Перенести изменения рабочей среды, сделанные в live-режиме, в установленную ОС</translation>
+        <translation>Изменения рабочего стола сделанные в live-окружении будут перенесены в установленную ОС</translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="2067"/>
         <location filename="ui_meinstall.h" line="1324"/>
         <source>Save live desktop changes</source>
-        <translation>Сохранить изменения рабочей среды</translation>
+        <translation>Сохранить изменения рабочей live среды </translation>
     </message>
     <message>
         <location filename="meinstall.ui" line="2099"/>
@@ -1239,7 +1238,7 @@ antiX Linux is supported by people like you. Some help others at the support for
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Программа установки не может быть запущена, она уже выполняется в фоновом режиме.
 
-Пожалуйста, по возможности закройте ее, или выполните &apos;pkill minstall&apos; в терминале.</translation>
+Пожалуйста, по возможности закройте её, или выполните &apos;pkill minstall&apos; в терминале.</translation>
     </message>
     <message>
         <location filename="app.cpp" line="55"/>
@@ -1248,7 +1247,7 @@ We recommend you quit now and restart in Legacy Boot
 
 Do you want to continue the installation?</source>
         <translation>Вы используете 32-битную ОС, запущенную в режиме UEFI, система не сможет загрузиться, если Вы не выберете Legacy Boot или аналогичную при перезагрузке.
-Рекомендуем Вам выйти из программы и перезапустить ее в Legacy Boot
+Мы рекомендуем Вам выйти сейчас и перезапустить её в Legacy Boot
 
 Вы хотите продолжить установку?</translation>
     </message>
@@ -1265,7 +1264,7 @@ Do you want to continue the installation?</source>
     <message>
         <location filename="app.cpp" line="73"/>
         <source>You must run this app as root.</source>
-        <translation>Вы должны запустить это приложение от имени суперпользователя.</translation>
+        <translation>Вы должны запустить это приложение от имени суперпользователя(root).</translation>
     </message>
 </context>
 </TS>
